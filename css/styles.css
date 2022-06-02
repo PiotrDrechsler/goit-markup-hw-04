@@ -149,7 +149,7 @@ address {
 }
 
 .navigation-logo {
-  margin: 24px 93px 24px 16px;
+  margin: 24px 93px 24px 0;
 }
 
 .navigation-list {
@@ -234,10 +234,6 @@ address {
   letter-spacing: 0.06em;
 }
 
-.second-section-li {
-  margin-left: 30px;
-}
-
 .second-section-post {
   color: var(--text-color3);
   line-height: 1.71em;
@@ -267,11 +263,7 @@ address {
   align-items: center;
  
 }
-
-.third-section-li {
-  margin-left: 30px;
-}
-
+ 
 /* ======= C R E W  S E C T I O N ======= */
 
 .crew-section-background {
@@ -297,7 +289,7 @@ address {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
+    
 .crew-section-post-head {
   font-size: 16px;
   font-weight: 500;
@@ -314,10 +306,6 @@ address {
   letter-spacing: 0.03em;
   text-align: center;
   margin: 10px 0 30px 0;  
-}
-
-.crew-section-item {
-  margin-left: 30px;
 }
 
 /* ======= P O R T F O L I O  B U T T O N S ======= */
@@ -350,16 +338,12 @@ address {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
 .portfolio-item {
   margin-bottom: 30px;
-}
-
-.portfolio-item {
-  margin-left: 30px;
 }
 
 .portfolio-item-duble {
@@ -392,7 +376,7 @@ footer {
 }
 
 footer .contanier {
-  padding: 60px 15px 60px 15px;
+  padding: 60PX 0 60px 0;
 }
 
 .footer-adress1 {

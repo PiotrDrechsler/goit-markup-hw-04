@@ -231,7 +231,7 @@ address {
                 rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)),
-                url("/images/background/backgroundteam.png");
+                url("../images/background/backgroundteam.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: var(--bacground-color1);
